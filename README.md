@@ -10,6 +10,8 @@ A significant challenge in this project was that the publicly available source c
 * **Analysis:** I traced the error to the `PatchEmbedding` class, where the tensor was correctly projected but not properly reshaped, leaving a redundant dimension.
 * **Solution:** I corrected the bug by adding a `.squeeze(2)` operation within the `PatchEmbedding.forward` method. This fix correctly reshapes the tensor to the 3D format required by the model's encoder, resolving the error.
 
+(Link to download torch_ckpt file: https://huggingface.co/google/timesfm-1.0-200m-pytorch/blob/main/torch_model.ckpt)
+
 The corrected and runnable version of `model.py` is included in this repository, making this implementation of TimesFM accessible for similar forecasting tasks.
 
 ## 1. Business Problem
