@@ -38,6 +38,9 @@ The models were benchmarked, and the final performance was as follows:
 | SARIMAX  | 0.901941 |
 | LightGBM | 1.004777 |
 
+<img width="1307" height="703" alt="image" src="https://github.com/user-attachments/assets/c97bcb70-91fb-4cec-a616-38ca8a6fed2c" />
+
+
 **Conclusion:** The TimesFM model delivered the most accurate forecast, demonstrating the potential of foundational models to capture complex patterns in economic data more effectively than traditional or standard machine learning methods.
 
 ## 5. How to Run
