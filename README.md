@@ -32,8 +32,6 @@ The project followed a three-step process:
 ## 4. Results
 The models were benchmarked, and the final performance was as follows:
 
-*(Insert the final comparison chart image here)*
-
 | Model    | RMSE     |
 |----------|----------|
 | TimesFM  | 0.876361 |
