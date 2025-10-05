@@ -46,5 +46,6 @@ The models were benchmarked, and the final performance was as follows:
 ## 5. How to Run
 1.  Clone this repository.
 2.  Install the required libraries: `pip install -r requirements.txt`
-3.  Run the Jupyter Notebooks `01_EDA.ipynb` and `02_comparative_modeling.ipynb`.
+3.  Make sure the data files are added to the directory.
+4.  Run the Jupyter Notebooks `01_EDA.ipynb` and `02_comparative_modeling.ipynb`.
 
